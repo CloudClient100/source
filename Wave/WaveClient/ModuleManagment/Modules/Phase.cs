@@ -19,7 +19,8 @@ namespace WaveClient.Module
         
         public static void Enable()
         {
-            Memory0.mem.WriteMemory(yPos, Memory0.mem.ReadFloat(yPos)+2f)
+            float currentYPos = Memory0.mem.ReadFloat(yPos)
+            Memory0.mem.WriteMemory(yPos, currentYPos+2f)
         }    
     }
     
