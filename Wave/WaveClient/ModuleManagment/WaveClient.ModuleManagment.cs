@@ -54,7 +54,8 @@ namespace WaveClient.ModuleManagment
                     }
                     if (Module.Phase.ToggleState == true)
                     {
-                        Memory0.mem.WriteMemory(Module.Phase.yPos, Memory0.mem.ReadFloat(Module.Phase.yPos)+2f)
+                        
+                        Memory0.mem.WriteMemory(yPos, Memory0.mem.ReadFloat(Module.Phase.yPos) + 2f);
                     }
                     ///////////////////
                     if (Module.AirJump.ToggleState == false)

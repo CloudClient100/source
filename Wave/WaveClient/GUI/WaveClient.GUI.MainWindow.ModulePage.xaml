@@ -77,6 +77,14 @@
                         <Button Grid.Column="1" x:Name="SModule_AutoSprint" Style="{StaticResource SC_Button}" Content="On" Margin="5" Click="SModule_AutoSprint_Click"/>
                         <TextBlock x:Name="STextBlock_AutoSprint" HorizontalAlignment="Left" TextWrapping="Wrap" Text="AutoSprint" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="Black" FontSize="20" FontFamily="Consolas"/>
                     </Grid>
+                    <Grid x:Name="SGrid_Phase" Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="1" x:Name="SModule_Phase" Style="{StaticResource SC_Button}" Content="On" Margin="5" Click="SModule_Phase_Click"/>
+                        <TextBlock x:Name="STextBlock_Phase" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Phase" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="Black" FontSize="20" FontFamily="Consolas"/>
+                    </Grid>
                 </StackPanel>
             </ScrollViewer>
         </Grid>

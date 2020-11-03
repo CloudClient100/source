@@ -52,6 +52,7 @@ namespace WaveClient.GUI
             SModule_Coords.Content = GUIExtensions.GetBoolStateText(Module.Coords.ToggleState);
             SModule_Speed.Content = GUIExtensions.GetBoolStateText(Module.Speed.ToggleState);
             SModule_AutoSprint.Content = GUIExtensions.GetBoolStateText(Module.AutoSprint.ToggleState);
+            SModule_Phase.Content = GUIExtensions.GetBoolStateText(Module.Phase.ToggleState);
         }
 
         private void SModule_Airjump_Click(object sender, RoutedEventArgs e)
@@ -94,6 +95,11 @@ namespace WaveClient.GUI
         {
             Module.AutoSprint.ToggleState = !Module.AutoSprint.ToggleState;
             SModule_AutoSprint.Content = GUIExtensions.GetBoolStateText(Module.AutoSprint.ToggleState);
+        }
+        private void SModule_Phase_Click(object sender, RoutedEventArgs e)
+        {
+            Module.Phase.ToggleState = !Module.Phase.ToggleState;
+            SModule_Phase.Content = GUIExtensions.GetBoolStateText(Module.Phase.ToggleState);
         }
     }
 }

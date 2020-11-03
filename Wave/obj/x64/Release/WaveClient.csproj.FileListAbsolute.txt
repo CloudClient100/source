@@ -1,0 +1,7 @@
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient\GUI\Controls\Styles\WaveClient.GUI.Controls.Styles.SC_Button.baml
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient\GUI\Controls\Styles\WaveClient.GUI.Controls.Styles.SC_ScrollViewer.baml
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient\GUI\WaveClient.GUI.MainWindow.ModulePage.g.cs
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient\GUI\MainWindow.g.cs
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\App.g.cs
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient_MarkupCompile.cache
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient_MarkupCompile.lref

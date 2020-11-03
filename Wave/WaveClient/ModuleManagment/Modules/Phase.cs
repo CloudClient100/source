@@ -6,7 +6,7 @@ using System.Windows.Input;
 
 namespace WaveClient.Module
 {
-    public static class AirJump
+    public static class Phase
     {
         public static bool ToggleState;
 
@@ -14,7 +14,7 @@ namespace WaveClient.Module
         
         public static void Tick10()
         {
-
+           Memory0.mem.WriteMemory(yPos, 2);
         }
         
     }

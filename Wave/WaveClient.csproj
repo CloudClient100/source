@@ -121,6 +121,7 @@
     <Compile Include="WaveClient\ModuleManagment\Modules\NoFall.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Airjump.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\NoSwing.cs" />
+    <Compile Include="WaveClient\ModuleManagment\Modules\Phase.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Reach.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Speed.cs" />
     <Compile Include="WaveClient\ModuleManagment\WaveClient.ModuleDataRuntime.cs" />
