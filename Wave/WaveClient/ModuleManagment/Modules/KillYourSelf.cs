@@ -6,23 +6,17 @@ using System.Windows.Input;
 
 namespace WaveClient.Module
 {
-    public static class Phase
+    public static class KillYourSelf
     {
         public static bool ToggleState;
 
-        static Pointer yPos = new Pointer("Minecraft.Windows.exe", 0x036A0238, new int[] { 0x10, 0x18, 0x80, 0x9F8, 0x18, 0x45C }); 
+        static Pointer kys = new Pointer("Minecraft.Windows.exe", 0x036A0238, new int[] { 0x10, 0x18, 0x80, 0x9F8, 0x18, 0x45C }); 
         
 
         public static void Tick10()
         {
-           Memory0.mem.WriteMemory(yPos, 2);
+           Memory0.mem.WriteMemory(kys, 2);
         }
-        
-        public static void Enable()
-        {
-            float currentYPos = Memory0.mem.ReadFloat(yPos)
-            Memory0.mem.WriteMemory(yPos, currentYPos+2f)
-        }    
     }
     
 }

@@ -77,6 +77,14 @@
                         <Button Grid.Column="1" x:Name="SModule_AutoSprint" Style="{StaticResource SC_Button}" Content="On" Margin="5" Click="SModule_AutoSprint_Click"/>
                         <TextBlock x:Name="STextBlock_AutoSprint" HorizontalAlignment="Left" TextWrapping="Wrap" Text="AutoSprint" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="Black" FontSize="20" FontFamily="Consolas"/>
                     </Grid>
+                    <Grid x:Name="SGrid_KillYourSelf" Height="60">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="1" x:Name="SModule_KillYourSelf" Style="{StaticResource SC_Button}" Content="On" Margin="5" Click="SModule_KillYourSelf_Click"/>
+                        <TextBlock x:Name="STextBlock_KillYourSelf" HorizontalAlignment="Left" TextWrapping="Wrap" Text="KillYourSelf" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="Black" FontSize="20" FontFamily="Consolas"/>
+                    </Grid>
                     <Grid x:Name="SGrid_Phase" Height="60">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>

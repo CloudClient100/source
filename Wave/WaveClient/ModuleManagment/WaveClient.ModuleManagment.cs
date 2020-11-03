@@ -54,8 +54,8 @@ namespace WaveClient.ModuleManagment
                     }
                     if (Module.Phase.ToggleState == true)
                     {
-
-                        Module.Phase.Tick10();
+                        //Module.Phase.
+                        Module.Phase.Enable();
                     }
                     ///////////////////
                     if (Module.AirJump.ToggleState == false)

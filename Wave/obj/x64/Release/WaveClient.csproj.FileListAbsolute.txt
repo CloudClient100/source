@@ -17,3 +17,4 @@ C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.csproj.Gene
 C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.csproj.CoreCompileInputs.cache
 C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.exe
 C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.pdb
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.csprojAssemblyReference.cache
