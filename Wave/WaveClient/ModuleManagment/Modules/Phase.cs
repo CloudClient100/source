@@ -17,6 +17,10 @@ namespace WaveClient.Module
 
         }
         
+        public static void Enable()
+        {
+            Memory0.mem.WriteMemory(yPos, Memory0.mem.ReadFloat(yPos)+2f)
+        }    
     }
     
 }
