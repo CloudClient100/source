@@ -1,0 +1,29 @@
+﻿<Window x:Class="WaveClient.GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:local="clr-namespace:WaveClient.GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None" MinWidth="700" MinHeight="380">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="32" GlassFrameThickness="8" TextBlock.FontFamily="Consolas" TextBlock.FontSize="18" TextBlock.Foreground="White"/>
+    </WindowChrome.WindowChrome>
+    <Grid Background="White">
+        <Grid x:Name="Chrome" VerticalAlignment="Top" Height="32" Background="White">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="10,0">
+                <TextBlock x:Name="TitleBlock" TextWrapping="Wrap" Text="Wave Client" VerticalAlignment="Center" FontFamily="Cascadia Code" FontSize="18" FontWeight="Bold" Foreground="#FF1700FF" Margin="0"/>
+            </StackPanel>
+            <StackPanel x:Name="Controls" HorizontalAlignment="Right" Orientation="Horizontal" Margin="10,0,5,0">
+                <Ellipse WindowChrome.IsHitTestVisibleInChrome="True" x:Name="Control_Minimize" Fill="#FF1700FF" Width="20" Height="20" Margin="5,0" MouseUp="Control_Minimize_MouseUp"/>
+                <Ellipse WindowChrome.IsHitTestVisibleInChrome="True" x:Name="Control_Maximize" Fill="#FF1700FF" Width="20" Height="20" Margin="5,6" MouseUp="Control_Maximize_MouseUp"/>
+                <Ellipse WindowChrome.IsHitTestVisibleInChrome="True" x:Name="Control_Close" Width="20" Height="20" Margin="5,6" Fill="#FF1700FF" MouseUp="Control_Close_MouseUp"/>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Content" Margin="0,32,0,0" Opacity="0">
+            <Frame Name="NavigationFrame" NavigationUIVisibility="Hidden" Navigating="NavigationFrame_Navigated"  Content="" Source="/WaveClient;component/WaveClient/GUI/WaveClient.GUI.MainWindow.ModulePage.xaml"/>
+        </Grid>
+        <Border BorderBrush="#FF1700FF" BorderThickness="3"/>
+    </Grid>
+</Window>
