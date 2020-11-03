@@ -235,7 +235,7 @@ namespace WaveClient.GUI {
         
         #line 80 "..\..\..\..\..\WaveClient\GUI\WaveClient.GUI.MainWindow.ModulePage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Grid SGrid_Phase;
+        internal System.Windows.Controls.Grid SGrid_KillYourSelf;
         
         #line default
         #line hidden
@@ -243,7 +243,7 @@ namespace WaveClient.GUI {
         
         #line 85 "..\..\..\..\..\WaveClient\GUI\WaveClient.GUI.MainWindow.ModulePage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button SModule_Phase;
+        internal System.Windows.Controls.Button SModule_KillYourSelf;
         
         #line default
         #line hidden
@@ -251,7 +251,7 @@ namespace WaveClient.GUI {
         
         #line 86 "..\..\..\..\..\WaveClient\GUI\WaveClient.GUI.MainWindow.ModulePage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBlock STextBlock_Phase;
+        internal System.Windows.Controls.TextBlock STextBlock_KillYourSelf;
         
         #line default
         #line hidden
@@ -407,19 +407,19 @@ namespace WaveClient.GUI {
             this.STextBlock_AutoSprint = ((System.Windows.Controls.TextBlock)(target));
             return;
             case 25:
-            this.SGrid_Phase = ((System.Windows.Controls.Grid)(target));
+            this.SGrid_KillYourSelf = ((System.Windows.Controls.Grid)(target));
             return;
             case 26:
-            this.SModule_Phase = ((System.Windows.Controls.Button)(target));
+            this.SModule_KillYourSelf = ((System.Windows.Controls.Button)(target));
             
             #line 85 "..\..\..\..\..\WaveClient\GUI\WaveClient.GUI.MainWindow.ModulePage.xaml"
-            this.SModule_Phase.Click += new System.Windows.RoutedEventHandler(this.SModule_Phase_Click);
+            this.SModule_KillYourSelf.Click += new System.Windows.RoutedEventHandler(this.SModule_KillYourSelf_Click);
             
             #line default
             #line hidden
             return;
             case 27:
-            this.STextBlock_Phase = ((System.Windows.Controls.TextBlock)(target));
+            this.STextBlock_KillYourSelf = ((System.Windows.Controls.TextBlock)(target));
             return;
             }
             this._contentLoaded = true;

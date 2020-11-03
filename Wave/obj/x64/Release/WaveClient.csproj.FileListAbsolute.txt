@@ -5,3 +5,15 @@ C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient\GUI\MainWin
 C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\App.g.cs
 C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient_MarkupCompile.cache
 C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient_MarkupCompile.lref
+C:\Users\God\Documents\GitHub\source\Wave\bin\x64\Release\WaveClient.exe.config
+C:\Users\God\Documents\GitHub\source\Wave\bin\x64\Release\WaveClient.exe
+C:\Users\God\Documents\GitHub\source\Wave\bin\x64\Release\WaveClient.pdb
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\App.baml
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient\GUI\WaveClient.GUI.MainWindow.ModulePage.baml
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient\GUI\MainWindow.baml
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.g.resources
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.Properties.Resources.resources
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.csproj.GenerateResource.cache
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.csproj.CoreCompileInputs.cache
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.exe
+C:\Users\God\Documents\GitHub\source\Wave\obj\x64\Release\WaveClient.pdb
