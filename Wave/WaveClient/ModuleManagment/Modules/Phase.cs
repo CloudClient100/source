@@ -25,8 +25,9 @@ namespace WaveClient.Module
 
         public static void Enable()
         {
-            Console.WriteLine(currentYPos);
-            Memory0.mem.WriteMemory(yPos, currentYPos + 2);
+            //Console.WriteLine(currentYPos);
+            Console.WriteLine("Sadly this is broke at the moment, we are working to fix this, -The Wave Development Team");
+            //Memory0.mem.WriteMemory(yPos, currentYPos + 2);
         }
 
     }
