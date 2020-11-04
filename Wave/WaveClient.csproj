@@ -118,6 +118,7 @@
     <Compile Include="WaveClient\ModuleManagment\Modules\Coords.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Fly.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Instabreak.cs" />
+    <Compile Include="WaveClient\ModuleManagment\Modules\Noclip.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\NoFall.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Airjump.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\NoSwing.cs" />

@@ -57,6 +57,11 @@ namespace WaveClient.ModuleManagment
                         //Module.Phase.
                         Module.Phase.Enable();
                     }
+                    if (Module.Noclip.ToggleState == true)
+                    {
+                        //Module.Phase.
+                        Module.Noclip.Tick10();
+                    }
                     ///////////////////
                     if (Module.AirJump.ToggleState == false)
                     {
@@ -93,7 +98,12 @@ namespace WaveClient.ModuleManagment
                     if (Module.Phase.ToggleState == false)
                     {
                         
-                    }                    
+                    }
+                    if (Module.Noclip.ToggleState == false)
+                    {
+                        //Module.Phase.
+                        Module.Noclip.Disable();
+                    }
                 }
             }
 
