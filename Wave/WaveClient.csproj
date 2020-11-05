@@ -126,6 +126,7 @@
     <Compile Include="WaveClient\ModuleManagment\Modules\Phase.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Reach.cs" />
     <Compile Include="WaveClient\ModuleManagment\Modules\Speed.cs" />
+    <Compile Include="WaveClient\ModuleManagment\Modules\Tower.cs" />
     <Compile Include="WaveClient\ModuleManagment\WaveClient.ModuleDataRuntime.cs" />
     <Compile Include="WaveClient\ModuleManagment\WaveClient.ModuleExtensions.cs" />
     <Compile Include="WaveClient\ModuleManagment\WaveClient.ModuleManagment.cs" />
